@@ -3,11 +3,13 @@ import ReactDOM from "react-dom";
 // var React = require("react");
 // var ReactDOM = require("react-dom")
 
-ReactDOM.render(<h1>Da Vinci !</h1>, document.getElementById("root"));
+const name = "Hacker"
+
+ReactDOM.render(<h1>Da {name} !</h1>, document.getElementById("root"));
 
 ReactDOM.render(
   <div>
-    <h1>Da Vinci!</h1>
+    <h1>Da {name}!</h1>
     <ul>
       <li>Hack</li>
       <li>Er</li>
