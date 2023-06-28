@@ -5,11 +5,9 @@ import ReactDOM from "react-dom";
 
 const name = "Hacker"
 
-ReactDOM.render(<h1>Da {name} !</h1>, document.getElementById("root"));
-
 ReactDOM.render(
   <div>
-    <h1>Da {name}!</h1>
+    <h1 className="heading">Daaaa {name}!</h1>
     <ul>
       <li>Hack</li>
       <li>Er</li>
