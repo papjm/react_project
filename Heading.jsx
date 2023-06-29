@@ -1,5 +1,8 @@
 import React from "react";
 
+
 function Heading() {
-  <h1>Introuduction to something new</h1>
-}
+  return <h1>Hackerone</h1>
+};
+
+export default Heading 
