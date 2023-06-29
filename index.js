@@ -5,7 +5,9 @@ import ReactDOM from "react-dom";
 
 function Heading() {
   return <h1>Hackerone</h1>
-}
+};
+
+<Heading />
 
 ReactDOM.render(<h1>Daaaa {name}!</h1>,document.getElementById("root")
 );
